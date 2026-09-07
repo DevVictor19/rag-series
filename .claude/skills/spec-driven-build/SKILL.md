@@ -27,7 +27,7 @@ Se o usuário já forneceu o contexto na invocação do comando (ex: `/spec Adic
 
 Antes de prosseguir, **sempre confirme o nome da feature** que será usado como nome da pasta:
 - Formato: kebab-case, descritivo e curto (ex: `autenticacao-2fa`, `lgpd-cookie-consent`, `export-csv`)
-- Confirme: _"Vou criar os arquivos em `docs/<nome>/`. Está correto?"_
+- Confirme: _"Vou criar os arquivos em `docs/<nome-do-projeto>/<nome-da-feature>/`. Está correto?"_
 
 ---
 
@@ -35,7 +35,7 @@ Antes de prosseguir, **sempre confirme o nome da feature** que será usado como 
 
 Explore o código relevante com as ferramentas disponíveis (Read, Grep, Glob) para embasar a especificação com referências reais: nomes de arquivos, números de linha, interfaces TypeScript, nomes de funções.
 
-Crie o arquivo em `docs/<nome-da-feature>/SDD.md` seguindo **rigorosamente** esta estrutura:
+Crie o arquivo em `docs/<nome-do-projeto>/<nome-da-feature>/SDD.md` seguindo **rigorosamente** esta estrutura:
 
 ```markdown
 # SDD — <Título da Feature ou Correção>
