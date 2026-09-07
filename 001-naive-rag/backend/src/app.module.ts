@@ -1,4 +1,8 @@
 import { Module } from '@nestjs/common';
+import { ConfigModule } from '@nestjs/config';
+import { AgentsModule } from './agents/agents.module';
 
-@Module({})
+@Module({
+  imports: [ConfigModule.forRoot({ isGlobal: true }), AgentsModule],
+})
 export class AppModule {}
